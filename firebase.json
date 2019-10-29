@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/platzisquare-angular4",
+    "public": "dist/maps-square-angular4",
     "ignore": [
       "firebase.json",
       "**/.*",

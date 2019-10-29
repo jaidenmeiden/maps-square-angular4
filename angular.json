@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "platzisquare-angular4": {
+    "maps-square-angular4": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/platzisquare-angular4",
+            "outputPath": "dist/maps-square-angular4",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "platzisquare-angular4:build"
+            "browserTarget": "maps-square-angular4:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "platzisquare-angular4:build:production"
+              "browserTarget": "maps-square-angular4:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "platzisquare-angular4:build"
+            "browserTarget": "maps-square-angular4:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "platzisquare-angular4:serve"
+            "devServerTarget": "maps-square-angular4:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "platzisquare-angular4:serve:production"
+              "devServerTarget": "maps-square-angular4:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "platzisquare-angular4"
+  "defaultProject": "maps-square-angular4"
 }

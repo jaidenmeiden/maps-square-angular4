@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to platzisquare-angular4!');
+    expect(page.getTitleText()).toEqual('Welcome to maps-square-angular4!');
   });
 
   afterEach(async () => {
